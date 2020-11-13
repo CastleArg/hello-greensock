@@ -12,6 +12,20 @@ body {
   margin: auto;
 }
 
+header {
+    padding: 10px 10px;
+    background-color: navy;
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+}
+
+img {
+    display: inline;
+    height: 100px;
+    top: 50%;
+}
+
 main {
   flex: 1;
  
@@ -29,9 +43,6 @@ section {
 
 h1 {
   color: white;
-  margin: auto;
-  background-color: navy;
-  padding: 50px;
 }
 
 form {
